@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Z corn</title>
+    <style>
+       
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        header{
+            width:100%;
+            height:100vh;
+            background-image: url(hands-costume-office-firm-wallpaper-preview.jpg);
+            background-size: cover;
+            background-position: bottom;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        .header-content{
+            margin-top: 190px;
+            color: #fc035b;
+            text-shadow: 3px 0px black ;
+            text-align: center;
+          
+        }
+        .header-content h2{
+            font-size: 3.1rem;
+            margin-left:30px;
+        }
+        .line{
+            width: 200px;
+            height: 4px;
+            background-color: black;
+            margin:20px auto;
+            border-radius: 10px;
+        }
+        .ctn{
+            
+            padding: 0px 15px;
+            background: green;
+            color:red;
+            font-size: 2rem;
+            border-radius: 10px;
+        }
+        ul{
+            list-style: none;
+        }
+        .navbar{
+            display: flex;
+            position: absolute;
+            top:0px;
+            left:0px;
+            width: 100%;
+            justify-content: space-between;
+            padding: 20px;
+            color:#fc035b
+           
+            
+        }
+        .navbar a{
+            color:white
+        }
+        .nav-links{
+            display: flex;
+            align-items: center;
+        }
+        .nav-links li{
+            margin: 0 30px;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 10px;
+            
+        }
+        .nav-links li:hover{
+            font-size: 23px;
+            background-color: #fc035b;
+
+        }
+       @media only screen and (max-wid:850px){
+        .navbar{
+            padding: 0px;
+
+        }
+        .logo{
+            position: absolute;
+            top:30px;
+            left:30px;
+        }
+       }
+   
+        .left1{
+            width: 50%;
+            height: 700px;
+            float: left;
+            
+        }
+        .right2{
+            width: 50%;
+            height: 700px;
+           float: left;
+           border: 2px solid #fc035b;
+           margin-top: 20px;
+           background-color:rgba(233, 86, 86, 0.418);
+           border-radius: 10px;
+            
+        }
+        .left1 img{
+            width: 80%;
+            height: 700px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .right2 h1,h3{
+            margin-top: 20px;
+            padding-left: 30px;
+            color: black;
+            font-family:'Times New Roman', Times, serif;
+           
+        }
+        .row3{
+            width: 50%;
+            height: 350px;
+            float: left;
+           
+        }
+        .row4{
+            width: 50%;
+            height: 350px;
+            float: left;
+           border-radius: 30px;
+        
+
+        }
+        .row4 img;:hover{
+            width: 40%;
+            height: 350px;
+            text-align: center;
+            background-color: rgba(0, 255, 255, 0.363);
+            
+
+        }
+        .h1{
+            width: 50%;
+            height: 20px;
+            float: left;
+        }
+        .h1 h1{
+            margin-left: 20px;
+            ma
+        }
+        .h2{
+            width:50%;
+            height: 80px;
+            float:left;
+           
+            
+        }
+        .h2 h4{
+            padding-top: 100px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            
+            color: black;
+           
+
+        }
+        .h1 img{
+            width: 80%;
+            height: 250px;margin-left: 20px;
+            background-size: cover;
+            border-radius: 10px;
+
+        }
+       
+        .row4 img{
+            width:100%;
+            height:780px
+           
+        }
+        .image{
+            background-size: cover;
+            width: 100%;
+            height: 700px;
+            margin-top: 110px;
+        }
+        .copy{
+            width: 100%;
+            height: 100px;
+            
+        }
+        .h0{
+            justify-content: end;
+            margin-top: 400px;
+        }
+        .slider-box{
+            max-width: 80%;
+            
+            margin:30px auto;
+            position: relative;
+
+        }
+        #slider{
+            width: 100%;
+            display: inline-flex;
+            transition: 0.8s;
+            
+        }
+        #slider img{
+            width: 1900x;
+            margin-left:200px;
+           
+        }
+        .indicators{
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            transform: translateX(-50%);
+
+        }
+        .indicators span{
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #fc035b;
+            cursor: pointer;
+        }
+       
+      
+
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Logo here</h1>
+        <ul class="nav-links">
+            <a href="Home.html">
+                <li> About Us
+            </a></li>
+            <a href="technologhy.html">
+                <li>Technology
+            </a></li>
+            <a href="">
+                <li>Services
+            </a></li>
+           
+             
+            <a href="Trend.html">
+                <li>Trending Solution
+            </a></li>
+            <a href="ctn">
+                <li style="background-color:#fc035b">Contact Us
+            </a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore About Z corp</h2>
+            <div class="line"></div>
+            <h1> A wonderfull Services</h1>
+            <a href="paje2.html"class="ctn"> Let's Talk</a>
+        </div>
+    </header>
+    <div style="background-color:#fc035b;color:#fc035b"> ..........</div>
+    <section>
+       <div class="left1">
+            <div>
+               <img src="develoment.png"/>
+                         </div>
+       </div>
+       <div class="right2">
+        <h1 style="color:blue; font-size:40px;">Profile</h1>
+        <h3>We are a comprehensive IT solutions provider that offers a wide range of services to businesses
+            of all sizes and industries. Our team of experts has years of experience in the IT industry and is dedicated
+            to staying up-to-date with the latest advancements in technology.
+            We specialize in software and hardware manufacturing and marketing, training and services,
+            medical infrastructure solutions, IT consultancy, embedded systems development, electronics
+            manufacturing, product assembly, automotive system innovations, technical training provider,
+            mechatronics, BPO, e-commerce, and the production of the latest technological advancements on
+            software and hardware.
+            At our core, we are committed to delivering innovative solutions that help our clients achieve
+            their business goals. We believe in the power of technology as a tool to drive growth and efficiency, and
+            we work closely with our clients to understand their specific needs and deliver customized solutions that
+            exceed their expectations.
+            Whether you need help with software development, network security, data management,
+            hacked account reversal, end-to-end migration, or any other IT-related service, we have the skills and
+            expertise to deliver the technology solutions you need to stay ahead of the competition.
+            At our company, we believe that research and development are key to staying ahead of the curve
+            in today's rapidly-evolving technology landscape. That's why we have a dedicated team of researchers
+            and developers who are constantly working to innovate and create new solutions that can help our
+            clients stay ahead of the competition.
+            If you are looking for a reliable partner to help you leverage technology to achieve your business
+            goals, look no further than our company. Contact us today to learn more about our comprehensive IT
+            solutions and how we can help you stay ahead of the curve.
+            </h3>
+       </div>
+    </section>
+    <section>
+        <div>
+            <div class="row3">
+                <div class="h1">
+                    <h1 style="color:black; font-size:40px;"><marquee>Medical Infrastructure</marquee></h1>
+                    <img src="JH2ABG-1024x512.jpg"/>
+                </div>
+                <div class="h2">
+                   
+                    <h4>Our company is a leading provider of medical infrastructure solutions, offering a range of
+                    products and services designed to improve patient outcomes and enhance the efficiency of medical
+                    facilities.
+                   Our team of experts has years of experience in the medical technology industry, and we
+                    understand the unique challenges faced by healthcare providers today. That's why we have developed a
+                    range of innovative products and services that help healthcare facilities deliver the highest quality care
+                    to their patients.</h4>
+                </div>
+
+
+            </div>
+            <div class="row4">
+                <img src="the-changing-landscape-of-digital-healthcare-in-india.jpg" style="border-radius:20px;"/>
+            </div>
+        </div>
+    </section>
+    <div>
+        <section>
+            <div class="image">
+                <img src="png-clipart-web-development-software-development-custom-software-mobile-app-development-computer-software-business-web-design-people-thumbnail.png" style="width:50%;height:400px;margin-top:20px; " class="img7"/>
+            </div>
+        </section>
+    </div>
+    
+   <section>
+    <h1 style="margin-top:700px;background-color:#fc035b;font-size:200%;height:50px"><marquee>Software and Hardware Manufacturin</marquee></h1>
+    <div class="slider-box">
+        <div id="slider">
+            <img src="How-to-Register-a-Company-in-Dubai-From-India.jpg" style="width:100%"/>
+            <img src="Is-the-Company-Youre-Working-for-Stable.jpg" style="margin-right:0px;"/>
+            <img src="What-is-active-business-conduct-of-your-company-800x445.jpg"/>
+            <img src="How-to-Register-a-Company-in-Dubai-From-India.jpg"/>
+        </div>
+        <div class="indicators">
+            <span id="btn1"></span>
+            
+            <span id="btn2"></span>
+            
+            <span id="btn3"></span>
+            
+            <span id="btn4"></span>
+
+        </div>
+
+        </div>
+        <script>
+            var slide =document.getElementById("slider")
+            var btn1 =document.getElementById("btn1")
+            var btn2 =document.getElementById("btn2")
+            var btn3 =document.getElementById("btn3")
+            var btn4 =document.getElementById("btn4")
+            btn1.onclick =function(){
+                slide.style.transform = "translateX(0px)";
+            }
+            btn2.onclick =function(){
+                slide.style.transform = "translateX(-100%)";
+            }
+            btn3.onclick =function(){
+                slide.style.transform = "translateX(-200%)";
+            }
+
+            btn4.onclick =function(){
+                slide.style.transform = "translateX(-300%)";
+            }
+        </script>
+    </div>
+    <img src="photo-1603366615917-1fa6dad5c4fa.jpg" class="copy">
+    
+    
+   </section>
+</body>
+</html>
